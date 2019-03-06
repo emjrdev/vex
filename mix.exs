@@ -4,8 +4,8 @@ defmodule Vex.Mixfile do
   def project do
     [
       app: :vex,
-      version: "0.8.0",
-      elixir: "~> 1.2",
+      version: "0.8.1",
+      elixir: "~> 1.7",
       deps: deps(),
       consolidate_protocols: Mix.env() != :test,
       package: package(),
